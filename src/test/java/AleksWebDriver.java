@@ -1,3 +1,4 @@
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
