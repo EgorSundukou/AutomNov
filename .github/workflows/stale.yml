@@ -2,6 +2,6 @@
   uses: mrfyda/codacy-analysis-cli-action@v1.0
   with:
     # 
-    directory: # optional, default is `pwd`
+    directory: `pwd`
     # 
     project-token: 
