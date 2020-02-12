@@ -5,7 +5,7 @@ public class Day1 {
 
     @Test
     public void test001() {
-        System.out.println("Hello World!");
+        System.out.println("Hello Woklrld!");
     }
 
     @Test
