@@ -4,7 +4,7 @@ public class PortnovWebDriver implements Selenium {
     }
 
     public void get() {
-        System.out.println("get");
+        System.out..println("get");
     }
 
     public void getTitle() {
