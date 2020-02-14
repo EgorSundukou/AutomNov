@@ -28,6 +28,11 @@ public class Day1 {
 
         System.out.println(myStringVarible);
 
+        
+        
+        
+        
+        
     }
 
     public void myMethod(String myParameter){
@@ -140,7 +145,7 @@ public class Day1 {
     public void test_ifStatement() {
         boolean elementIsVisible = true;
 
-        boolean elementNotVisible = true;
+        boolean elementNotVisible = true
 
         if(elementIsVisible){
             System.out.println("Click on the element");
@@ -152,4 +157,10 @@ public class Day1 {
             System.out.println("Refresh the page OR wait OR fail the test");
         }
     }
+    
+    
 }
+
+
+
+
