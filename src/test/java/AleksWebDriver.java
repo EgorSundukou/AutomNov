@@ -18,7 +18,7 @@ public class AleksWebDriver implements Selenium {
         // actual code implementation
     }
 
-    public void getTitle() 
+    public void getTitle() {
         // actual code implementation
     }
 }
@@ -30,8 +30,14 @@ class Example {
     @BeforeSuite
     public void setup(){
         String path = System.getProperty("user.dir") + "/src/test/resources/geckodriver";
-        System.setProperty("webdriver.gecko.driver", path);
+        System.setProperty("webdriver.gecko.driver", path)
         driver = new AleksWebDriver();
+        
+        
+        
+        
+        
+        
     }
 
     @Test
