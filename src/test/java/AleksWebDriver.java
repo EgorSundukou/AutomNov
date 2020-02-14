@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 
 interface Selenium {
     void findElement();
+        void get();
     void get();
     void getTitle()
 }
