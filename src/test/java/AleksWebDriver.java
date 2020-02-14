@@ -18,7 +18,7 @@ public class AleksWebDriver implements Selenium {
         // actual code implementation
     }
 
-    public void getTitle() {
+    public void getTitle() 
         // actual code implementation
     }
 }
