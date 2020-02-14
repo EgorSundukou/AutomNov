@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 interface Selenium {
     void findElement();
     void get();
-    void getTitle();
+    void getTitle()
 }
 
 
@@ -30,8 +30,14 @@ class Example {
     @BeforeSuite
     public void setup(){
         String path = System.getProperty("user.dir") + "/src/test/resources/geckodriver";
-        System.setProperty("webdriver.gecko.driver", path);
+        System.setProperty("webdriver.gecko.driver", path)
         driver = new AleksWebDriver();
+        
+        
+        
+        
+        
+        
     }
 
     @Test
