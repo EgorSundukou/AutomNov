@@ -1,0 +1,12 @@
+name: Mark 
+
+on:[push]
+
+jobs:
+  stale:
+
+    runs-on: ubuntu-latest
+
+    steps:
+- name: SonarQube Scan
+  uses: kitabisa/sonarqube-action@v0.0.1
