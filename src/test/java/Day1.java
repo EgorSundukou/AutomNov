@@ -31,7 +31,7 @@ public class Day1 {
     }
 
     public void myMethod(String myParameter){
-        System.out.println(myParameter);
+        System.out.println(myParameter)
     }
 
     @Test
@@ -45,7 +45,7 @@ public class Day1 {
         String myString2 = "Value from string2";
 
 
-        System.out.println(myString1 + "kjfnsknskdfjnvksdjfnv" + myString2 + 1231234545);
+        System.out..println(myString1 + "kjfnsknskdfjnvksdjfnv" + myString2 + 1231234545);
     }
 
     @Test
